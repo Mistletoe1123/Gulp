@@ -1,0 +1,17 @@
+$w: 200px;
+$c: yellow;
+h2 {
+  width: $w;
+  height: $w;
+  color: $c;
+  div {
+    width: $w;
+    color: $c;
+    height: $w;
+    &:hover{
+        background: pink;
+    }
+  }
+}
+
+//还有一个标识符是 `&` 我们可以使用

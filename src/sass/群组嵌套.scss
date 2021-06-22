@@ -1,0 +1,19 @@
+//多个标签同时嵌套
+section{
+    width: 100px;
+    .box1,.box2,.box3{
+        color: greenyellow;
+        font-size: 30px;
+    }
+}
+
+
+//多个标签同时嵌套一个标签
+h3,h4,h5{
+    width: 100px;
+    height: 50px;
+    background: pink;
+    .box{
+        color: red;
+    }
+}

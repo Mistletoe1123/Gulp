@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+#weather-container {
+    width        : 350px;
+    height       : 450px;
+    background   : linear-gradient(rgb(85, 247, 206), rgb(244, 245, 185));
+    text-align   : center;
+    margin       : 20px auto;
+    border-radius: 10px;
+    padding-top  : 15px;
+    display      : inline-block;
+
+    .city {
+        font-size    : 36px;
+        margin-bottom: 10px;
+    }
+
+    .weather-degree {
+        display: flex;
+        margin : 30px 0;
+
+        .weather-degree-left {
+            flex        : 5;
+            text-align  : right;
+            font-size   : 45px;
+            margin-right: 10px;
+        }
+
+        .weather-degree-right {
+            flex          : 5;
+            text-align    : left;
+            display       : flex;
+            flex-direction: column;
+        }
+    }
+
+
+    .weather-meaasge {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+
+        .weather-meaasge-air {
+            width        : 180px;
+            height       : 30px;
+            background   : greenyellow;
+            border-radius: 4px;
+            line-height  : 30px;
+            font-size    : 16px;
+        }
+    }
+
+    .icon {
+        width         : 4em;
+        height        : 4em;
+        vertical-align: -0.15em;
+        fill          : currentColor;
+        overflow      : hidden;
+    }
+}
